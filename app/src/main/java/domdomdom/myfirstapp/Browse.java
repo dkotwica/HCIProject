@@ -8,6 +8,8 @@ import android.view.MenuItem;
 
 public class Browse extends ActionBarActivity {
 
+    //Test Change
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
