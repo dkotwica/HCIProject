@@ -1,9 +1,11 @@
 package domdomdom.myfirstapp;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ExpandableListView;
 
 import java.util.ArrayList;
@@ -27,6 +29,10 @@ public class Browse extends ActionBarActivity {
         Bar_List = new ArrayList<String>(Bar_Category.keySet());
         adapter = new BeerAdapter(this, Bar_Category, Bar_List);
         Exp_list.setAdapter(adapter);
+    }
+    public void sendDirections(View view) {
+        Intent intent = new Intent(this, Directions.class);
+        startActivity(intent);
     }
 
 
