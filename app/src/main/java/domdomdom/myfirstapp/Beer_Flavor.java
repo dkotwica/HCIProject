@@ -21,7 +21,7 @@ public class Beer_Flavor extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_browse);
+        setContentView(R.layout.activity_beer__flavor);
         Exp_list = (ExpandableListView) findViewById(R.id.exp_list);
         Movies_category = BeerFlavor.getInfo();
         Movies_list = new ArrayList<String>(Movies_category.keySet());

@@ -241,7 +241,7 @@ public class BeerFlavor {
 
 
             BeerFlavors.put("Ale", ale_beer);
-            BeerFlavors.put("Blond", blonde_beer);
+            BeerFlavors.put("Blonde", blonde_beer);
             BeerFlavors.put("Brown", brown_beer);
             BeerFlavors.put("Dunkel", dunkel_beer);
             BeerFlavors.put("Fruity", fruity_beer);
@@ -250,7 +250,7 @@ public class BeerFlavor {
             BeerFlavors.put("Mead", mead_beer);
             BeerFlavors.put("Nitro", nitro_beer);
             BeerFlavors.put("Pilsner", pilsner_beer);
-            BeerFlavors.put("porter", porter_beer);
+            BeerFlavors.put("Porter", porter_beer);
             BeerFlavors.put("Saison", saison_beer);
             BeerFlavors.put("Sour", sour_beer);
             BeerFlavors.put("Stout", stout_beer);
