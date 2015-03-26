@@ -9,8 +9,8 @@
         android:layout_weight="1"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
-        android:text="@string/button_new"/>
-        <!--android:onClick="sendNew"/>-->
+        android:text="@string/button_new"
+        android:onClick="sendNew"/>
     <Button
         android:layout_weight="1"
         android:layout_width="fill_parent"
@@ -20,6 +20,6 @@
         android:id="@+id/HelpMeDecide"
         android:enabled="true"
         android:onClick="sendFlavor" />
-        <!---android:onClick="sendDecide"/>-->
+
 
 </LinearLayout>

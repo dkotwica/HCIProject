@@ -37,6 +37,14 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".NewBeer"
+            android:label="@string/title_activity_new_beer"
+            android:parentActivityName=".HelpMe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="domdomdom.myfirstapp.HelpMe" />
+        </activity>
     </application>
 
 </manifest>
