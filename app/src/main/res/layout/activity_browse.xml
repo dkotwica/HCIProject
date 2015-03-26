@@ -1,26 +1,20 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    tools:context="domdomdom.myfirstapp.Browse"
-    android:orientation="vertical">
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textViewParent"
-        android:paddingBottom="10dp"
-        android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
-        android:paddingTop="10dp"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context="domdomdom.myfirstapp.Browse">
 
-        android:textStyle="bold"
-        />
     <ExpandableListView
-    android:id="@+id/expandableList"
+    android:id="@+id/exp_list"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:groupIndicator="@null"
+    android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+    android:divider="#A4C739"
 
-    android:dividerHeight="10dp"/>
+    android:dividerHeight="1dp"/>
 
-</LinearLayout>
+</RelativeLayout>
