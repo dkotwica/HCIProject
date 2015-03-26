@@ -16,6 +16,7 @@
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:text="@string/button_help"
-        android:onClick="sendHelp"/>
+        android:onClick="sendHelp"
+        android:id="@+id/HELP_BUTTON" />
 
 </LinearLayout>
