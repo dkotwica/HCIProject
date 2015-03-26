@@ -1,17 +1,24 @@
 package domdomdom.myfirstapp;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.content.Intent;
+
 
 
 public class HelpMe extends ActionBarActivity {
+    Button HelpMe;
     //test change
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_help_me);
+
     }
 
 
@@ -35,5 +42,10 @@ public class HelpMe extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+    /** Called when the user clicks Help Me Decide!  **/
+    public void sendFlavor(View view) {
+        Intent intent = new Intent(this, Beer_Flavor.class);
+        startActivity(intent);
     }
 }

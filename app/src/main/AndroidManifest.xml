@@ -28,6 +28,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="domdomdom.myfirstapp.MyActivity" />
         </activity>
+        <activity
+            android:name=".Beer_Flavor"
+            android:label="@string/title_activity_beer__flavor" >
+            <intent-filter>
+                <action android:name="beer.Beer_Flavor" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

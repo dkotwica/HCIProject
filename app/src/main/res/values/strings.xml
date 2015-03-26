@@ -11,4 +11,5 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_help_me">Find the beer right for you</string>
     <string name="title_activity_browse">Browse Local Bars</string>
+    <string name="title_activity_beer__flavor">Beer_Flavor</string>
 </resources>

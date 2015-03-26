@@ -16,7 +16,10 @@
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:text="@string/button_decide"
-        android:clickable="false" />
+        android:clickable="true"
+        android:id="@+id/HelpMeDecide"
+        android:enabled="true"
+        android:onClick="sendFlavor" />
         <!---android:onClick="sendDecide"/>-->
 
 </LinearLayout>
