@@ -13,8 +13,8 @@ import java.util.List;
 
 public class Browse extends ActionBarActivity {
 
-    HashMap<String, List<String>> Movies_category;
-    List<String> Movies_list;
+    HashMap<String, List<String>> Bar_Category;
+    List<String> Bar_List;
     ExpandableListView Exp_list;
     BeerAdapter adapter;
 
@@ -23,9 +23,9 @@ public class Browse extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_browse);
         Exp_list = (ExpandableListView) findViewById(R.id.exp_list);
-        Movies_category = BeerData.getInfo();
-        Movies_list = new ArrayList<String>(Movies_category.keySet());
-        adapter = new BeerAdapter(this, Movies_category, Movies_list);
+        Bar_Category = BeerData.getInfo();
+        Bar_List = new ArrayList<String>(Bar_Category.keySet());
+        adapter = new BeerAdapter(this, Bar_Category, Bar_List);
         Exp_list.setAdapter(adapter);
     }
 

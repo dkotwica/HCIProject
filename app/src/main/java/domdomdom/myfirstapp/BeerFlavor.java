@@ -32,7 +32,7 @@ public class BeerFlavor {
 
 
 
-            ale_beer.add("Anderson Valley Dark Side of the Boon"); // ale
+            ale_beer.add("Anderson Valley Dark Side of the Boon "); // ale
             ale_beer.add("Anderson Valley Fall Hornin'"); // ale
             ale_beer.add("Barley Mow The Unkindness"); // ale
             ale_beer.add("Engine 15 Nut Sack"); // ale

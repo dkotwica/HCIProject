@@ -14,14 +14,14 @@ import android.widget.TextView;
 
 public class BeerAdapter extends BaseExpandableListAdapter{
     private Context ctx;
-    private HashMap<String, List<String>> Movies_Category;
-    private List<String> Movies_List;
+    private HashMap<String, List<String>> BeeryArray_Category;
+    private List<String> BeerArray_List;
 
-    public BeerAdapter(Context ctx, HashMap<String, List<String>> Movies_Category, List<String> Movies_List )
+    public BeerAdapter(Context ctx, HashMap<String, List<String>> BeeryArray_Category, List<String> BeerArray_List )
     {
         this.ctx = ctx;
-        this.Movies_Category = Movies_Category;
-        this.Movies_List = Movies_List;
+        this.BeeryArray_Category = BeeryArray_Category;
+        this.BeerArray_List = BeerArray_List;
 
     }
 
@@ -29,7 +29,7 @@ public class BeerAdapter extends BaseExpandableListAdapter{
     public Object getChild(int parent, int child) {
 
 
-        return Movies_Category.get(Movies_List.get(parent)).get(child);
+        return BeeryArray_Category.get(BeerArray_List.get(parent)).get(child);
     }
 
     @Override
@@ -58,19 +58,19 @@ public class BeerAdapter extends BaseExpandableListAdapter{
     @Override
     public int getChildrenCount(int arg0) {
 
-        return Movies_Category.get(Movies_List.get(arg0)).size();
+        return BeeryArray_Category.get(BeerArray_List.get(arg0)).size();
     }
 
     @Override
     public Object getGroup(int arg0) {
         // TODO Auto-generated method stub
-        return Movies_List.get(arg0);
+        return BeerArray_List.get(arg0);
     }
 
     @Override
     public int getGroupCount() {
         // TODO Auto-generated method stub
-        return Movies_List.size();
+        return BeerArray_List.size();
     }
 
     @Override

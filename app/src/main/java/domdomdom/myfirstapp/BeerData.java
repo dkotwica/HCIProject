@@ -11,7 +11,7 @@ import java.util.List;
 public class BeerData {
     public static HashMap<String, List<String>> getInfo()
     {
-        HashMap<String, List<String>> MoviesDetails = new HashMap<String, List<String>>();
+        HashMap<String, List<String>> BarDetails = new HashMap<String, List<String>>();
 
         List<String> Swamp_Head = new ArrayList<String>();
         Swamp_Head.add("Swamphead Big Nose"); // hoppy
@@ -193,13 +193,13 @@ public class BeerData {
 
 
 
-        MoviesDetails.put("World of Beer", World_Beer);
-        MoviesDetails.put("Swamphead Brewery", Swamp_Head);
-        MoviesDetails.put("First Magnitude Brewery", First_Magnitude);
-        MoviesDetails.put("Crafty Bastard", Crafty_Bastard);
-        MoviesDetails.put("House of Beer", House_Beer);
+        BarDetails.put("World of Beer", World_Beer);
+        BarDetails.put("Swamphead Brewery", Swamp_Head);
+        BarDetails.put("First Magnitude Brewery", First_Magnitude);
+        BarDetails.put("Crafty Bastard", Crafty_Bastard);
+        BarDetails.put("House of Beer", House_Beer);
 
-        return MoviesDetails;
+        return BarDetails;
 
     }
 
