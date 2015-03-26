@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/CB_Location"
+        android:id="@+id/CB_Location"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:onClick="CB_Map" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/FMB_Location"
+        android:id="@+id/FMB_Location"
+        android:layout_weight="1"
+        android:onClick="FMB_Map" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/HoB_Location"
+        android:id="@+id/HoB_Location"
+        android:layout_weight="1"
+        android:onClick="HoB_Map" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/SH_Location"
+        android:id="@+id/SH_Location"
+        android:layout_weight="1"
+        android:onClick="SH_Map" />
+
+
+    <Button
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/WoB_Location"
+        android:id="@+id/WoB_Location"
+        android:layout_alignParentBottom="true"
+        android:onClick="WoB_Map" />
+
+
+
+</LinearLayout>
