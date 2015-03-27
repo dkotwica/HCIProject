@@ -12,6 +12,7 @@
     <string name="title_activity_help_me">Find the beer right for you</string>
     <string name="title_activity_browse">Browse Local Bars</string>
     <string name="title_activity_beer__flavor">Beer_Flavor</string>
+    <string name="title_activity_new_beer">Definitions for new beer drinkers</string>
     <string name="SH_Location">Swamp Head Location</string>
     <string name="HoB_Location">House of Beer Location</string>
     <string name="FMB_Location">First Magnitude Bewery Location</string>
