@@ -1,9 +1,11 @@
 package domdomdom.myfirstapp;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ExpandableListView;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -30,6 +32,10 @@ public class Beer_Flavor extends ActionBarActivity {
 
 
 
+    }
+    public void sendDirections(View view) {
+        Intent intent = new Intent(this, Directions.class);
+        startActivity(intent);
     }
 
 }

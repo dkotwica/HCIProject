@@ -1,9 +1,11 @@
 package domdomdom.myfirstapp;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ExpandableListView;
 
 import java.util.ArrayList;
@@ -35,6 +37,10 @@ public class NewBeer extends ActionBarActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_new_beer, menu);
         return true;
+    }
+    public void sendFlavor(View view) {
+        Intent intent = new Intent(this, Beer_Flavor.class);
+        startActivity(intent);
     }
 
     @Override

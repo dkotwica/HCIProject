@@ -4,42 +4,37 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.content.Intent;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
+import android.widget.ExpandableListView;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 
-public class MyActivity extends ActionBarActivity {
+public class Takeover extends ActionBarActivity {
 
+    HashMap<String, List<String>> Takeover_Week;
+    List<String> Takeover_List;
+    ExpandableListView Exp_list;
+    BeerAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_my);
+        setContentView(R.layout.activity_takeover);
+        Exp_list = (ExpandableListView) findViewById(R.id.exp_list);
+        Takeover_Week = TakeoverList.getInfo();
+        Takeover_List = new ArrayList<String>(Takeover_Week.keySet());
+        adapter = new BeerAdapter(this, Takeover_Week, Takeover_List);
+        Exp_list.setAdapter(adapter);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_my, menu);
+        getMenuInflater().inflate(R.menu.menu_takeover, menu);
         return true;
-    }
-    /** Called when the user clicks the Help button */
-    public void sendHelp(View view) {
-        Intent intent = new Intent(this, HelpMe.class);
-        startActivity(intent);
-    }
-
-    public void sendBrowse(View view) {
-        Intent intent = new Intent(this, Browse.class);
-        startActivity(intent);
-    }
-
-    public void sendTakeover(View view) {
-        Intent intent = new Intent(this, Takeover.class);
-        startActivity(intent);
     }
 
     @Override

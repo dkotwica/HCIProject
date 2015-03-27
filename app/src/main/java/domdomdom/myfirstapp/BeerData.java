@@ -31,6 +31,7 @@ public class BeerData {
 
 
 
+
         List<String> First_Magnitude = new ArrayList<String>();
         First_Magnitude.add("First Magnitude 72 Pale Ale"); // hoppy
         First_Magnitude.add("First Magnitude Drift"); // ale
@@ -56,7 +57,7 @@ public class BeerData {
         World_Beer.add("First Magnitude Siren"); // blonde
         World_Beer.add("Florida Beer Swamp Ape IPA"); // hoppy
         World_Beer.add("George Killian's Irish Red"); // ale
-        World_Beer.add("Guinness Draught"); // ale
+        World_Beer.add("Guinness Draught"); // nitro
         World_Beer.add("Innis & Gunn Scottish Porter"); // porter
         World_Beer.add("Intuition Ale Works Boneshaker"); // lager
         World_Beer.add("Jdub's Brewing Uptop IPA"); // hoppy
@@ -125,10 +126,10 @@ public class BeerData {
         House_Beer.add("St. Louis Framboise"); // fruity
         House_Beer.add("Left Hand Oak Aged Widdershins"); // ale
         House_Beer.add("Anderson Valley Blood Orange Gose"); // fruity
-        House_Beer.add("Magners Original Cide"); // sour
+        House_Beer.add("Magners Original Cider"); // sour
         House_Beer.add("Guiness Draught"); // nitro
         House_Beer.add("Victory Donnybrook Stout"); // stout
-        House_Beer.add("Left Hand Milk Stout Nitro"); // nitro
+        House_Beer.add("Left Hand Milk Stout"); // nitro
         House_Beer.add("Cigar City Patio Tools"); // stout
 
 
@@ -148,11 +149,11 @@ public class BeerData {
         Crafty_Bastard.add("Swamp Head Cottonmouth"); // wheat
         Crafty_Bastard.add("Swamp Head Morning Glow"); // blonde
         Crafty_Bastard.add("Swamp Head Big Nose IPA"); // hoppy
-        Crafty_Bastard.add("Angry Orcchar Crisp Apple Cider"); // sour
+        Crafty_Bastard.add("Angry Orchard Crisp Apple Cider"); // sour
         Crafty_Bastard.add("Boulevard Single-Wide IPA"); // hoppy
         Crafty_Bastard.add("Stone Arrogant Bastard Ale"); // hoppy
         Crafty_Bastard.add("Founders Imperial Stout"); // stout
-        Crafty_Bastard.add("Cigar City Maudro Brown Ale"); // brown
+        Crafty_Bastard.add("Cigar City Maduro Brown Ale"); // brown
         Crafty_Bastard.add("Southern Tier Sonnet"); // saison
         Crafty_Bastard.add("Southern Tier Live"); // hoppy
         Crafty_Bastard.add("Southern Tier Right-O-Way"); // hoppy

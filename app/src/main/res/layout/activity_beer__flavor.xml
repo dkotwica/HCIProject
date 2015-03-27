@@ -1,20 +1,29 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="match_parent"
     android:layout_width="wrap_content"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="16dp"
-    android:paddingBottom="16dp"
+    android:orientation="vertical"
     tools:context="domdomdom.myfirstapp.Beer_Flavor">
 
     <TextView
         android:id="@+id/activity_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
+        android:textSize="12dp"
         android:textAppearance="@style/AppTheme"
-        android:text="A list of beers based on their flavor"/>
+        android:text="A list of beers based on their flavor. The abbreviations shown next to each beer is their location: SH = Swamp Head Brewery, FM = First Magnitude Brewery, CB = Crafty Bastards, WB = World of Beer, HB = House of Beer. Click the 'Bar Locations' button below when you have decided on a beer!"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_button"
+        android:layout_gravity="center_horizontal"
+        android:onClick = "sendDirections"
+        android:text="Bar Locations"
+        android:layout_marginTop="10dp"
+        />
 
     <ExpandableListView
         android:id="@+id/exp_list"
@@ -26,4 +35,4 @@
 
         android:dividerHeight="1dp"/>
 
-</RelativeLayout>
+</LinearLayout>

@@ -49,6 +49,14 @@
             android:name=".Directions"
             android:label="@string/title_activity_directions" >
         </activity>
+        <activity
+            android:name=".Takeover"
+            android:label="@string/title_activity_takeover"
+            android:parentActivityName=".MyActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="domdomdom.myfirstapp.MyActivity" />
+        </activity>
     </application>
 
 </manifest>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <string name="button_newb">To the listings!</string>
     <string name="app_name">Beer Finder</string>
+    <string name="text_newb">You can use this page to explore the different kinds of beer available to you in Gainesville. Checkout the Ale, Wheat, and Saison categories if you need help getting started as these are usually great for newbies! Click the green button below when you are ready to go to the beer listings.</string>
     <string name="edit_message">Enter a message</string>
     <string name="button_browse">Browse Local Bars</string>
     <string name="button_help">Beer Newbie?</string>
@@ -22,5 +23,6 @@
     <string name="title_activity_directions">Directions</string>
     <string name="main_screen_app_name">Beer Finder</string>
     <string name="title_activity_first_magnitude_brewery">FirstMagnitudeBrewery</string>
+    <string name="title_activity_takeover">Tap Takeover Schedule</string>
 
 </resources>
