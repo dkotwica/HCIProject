@@ -1,22 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-        <string name="app_name">My First App</string>
-        <string name="edit_message">Enter a message</string>
-        <string name="button_browse">Browse</string>
-        <string name="button_help">Help</string>
-        <string name="action_settings">Settings</string>
-        <string name="title_activity_main">MainActivity</string>
-        <string name="button_decide">Help Me Decide!</string>
-        <string name="button_new">I\'m new to craft beer, help me!</string>
 
+    <string name="app_name">Beer Finder</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_browse">Browse Local Bars</string>
+    <string name="button_help">Beer Newbie?</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="button_decide">Help Me Decide!</string>
+    <string name="button_new">I\'m new to craft beer, help me!</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_help_me">Find the beer right for you</string>
     <string name="title_activity_browse">Browse Local Bars</string>
-    <string name="title_activity_beer__flavor">Beer_Flavor</string>
-    <string name="title_activity_new_beer">Definitions for new beer drinkers</string>
+    <string name="title_activity_beer__flavor">Beer Flavors</string>
+    <string name="title_activity_new_beer">Beer Categories</string>
     <string name="SH_Location">Swamp Head Location</string>
     <string name="HoB_Location">House of Beer Location</string>
     <string name="FMB_Location">First Magnitude Bewery Location</string>
     <string name="CB_Location">Crafty Bastards Location</string>
     <string name="WoB_Location">World of Beer Location</string>
     <string name="title_activity_directions">Directions</string>
+    <string name="main_screen_app_name">Beer Finder</string>
+    <string name="title_activity_first_magnitude_brewery">FirstMagnitudeBrewery</string>
+
 </resources>

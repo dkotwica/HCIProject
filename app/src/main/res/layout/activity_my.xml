@@ -1,4 +1,4 @@
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -6,17 +6,30 @@
     android:orientation="vertical">
 
     <Button
-        android:layout_weight="1"
-        android:layout_width="fill_parent"
-        android:layout_height="0dp"
+        android:layout_weight="0"
+        android:background="@drawable/home_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/button_browse"
-        android:onClick="sendBrowse"/>
+        android:textSize="24dp"
+        android:onClick="sendBrowse"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/button"
+        android:layout_marginBottom="102dp"
+        android:layout_above="@+id/HELP_BUTTON"
+        android:layout_centerHorizontal="true" />
     <Button
-        android:layout_weight="1"
-        android:layout_width="fill_parent"
-        android:layout_height="0dp"
+        android:layout_weight="0"
+        android:background="@drawable/home_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/button_help"
+        android:textSize="24dp"
         android:onClick="sendHelp"
-        android:id="@+id/HELP_BUTTON" />
+        android:id="@+id/HELP_BUTTON"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="217dp" />
 
-</LinearLayout>
+</RelativeLayout>
