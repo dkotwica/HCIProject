@@ -1,21 +1,16 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical"
-    android:id="@+id/activity_my">
-    <!--android:background="@drawable/beerbackground"-->
-
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <Button
         android:layout_weight="1"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:text="@string/button_browse"
-        android:onClick="sendBrowse"
-        android:clickable="true"
-        android:id="@+id/browse_button" />
+        android:onClick="sendBrowse"/>
     <Button
         android:layout_weight="1"
         android:layout_width="fill_parent"

@@ -1,6 +1,5 @@
 package domdomdom.myfirstapp;
 
-import android.graphics.drawable.Drawable;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -9,7 +8,6 @@ import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 
 
 public class MyActivity extends ActionBarActivity {
@@ -26,8 +24,6 @@ public class MyActivity extends ActionBarActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_my, menu);
-
-
         return true;
     }
     /** Called when the user clicks the Help button */
