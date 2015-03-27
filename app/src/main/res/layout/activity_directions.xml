@@ -10,7 +10,8 @@
         android:id="@+id/CB_Location"
         android:layout_alignParentTop="true"
         android:layout_weight="1"
-        android:onClick="CB_Map" />
+        android:onClick="CB_Map"
+        android:background="@drawable/home_button"/>
 
     <Button
         android:layout_width="fill_parent"
@@ -18,7 +19,8 @@
         android:text="@string/FMB_Location"
         android:id="@+id/FMB_Location"
         android:layout_weight="1"
-        android:onClick="FMB_Map" />
+        android:onClick="FMB_Map"
+        android:background="@drawable/home_button"/>
 
     <Button
         android:layout_width="fill_parent"
@@ -26,25 +28,28 @@
         android:text="@string/HoB_Location"
         android:id="@+id/HoB_Location"
         android:layout_weight="1"
-        android:onClick="HoB_Map" />
+        android:onClick="HoB_Map"
+        android:background="@drawable/home_button"/>
 
     <Button
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         android:text="@string/SH_Location"
         android:id="@+id/SH_Location"
         android:layout_weight="1"
-        android:onClick="SH_Map" />
+        android:onClick="SH_Map"
+        android:background="@drawable/home_button"/>
 
 
     <Button
         android:layout_weight="1"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         android:text="@string/WoB_Location"
         android:id="@+id/WoB_Location"
         android:layout_alignParentBottom="true"
-        android:onClick="WoB_Map" />
+        android:onClick="WoB_Map"
+        android:background="@drawable/home_button"/>
 
 
 

@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.TextView;
 
-public class BeerAdapter extends BaseExpandableListAdapter{
+public class BeerAdapter extends BaseExpandableListAdapter {
     private Context ctx;
     private HashMap<String, List<String>> BeeryArray_Category;
     private List<String> BeerArray_List;

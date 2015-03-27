@@ -37,7 +37,7 @@ public class DescriptionStuff {
 
 
 
-        blonde_beer.add("Blonde Ale also called Golden Ale is a straw to medium blonde ale that has moderate bitterness and maltiness. Blonde Ale also called Golden Ale is a straw to medium blonde ale that has moderate bitterness and maltiness. Dry, light to medium body with light malty sweetness. Low to medium hop bitterness with minimal aroma. Slight fruit flavor. Light yellow to golden blonde color with no chill haze. Med to high carbonation. All malt, dry, crisp beer approximating a lager in overall character."); // blonde
+        blonde_beer.add("Blonde Ale also called Golden Ale is a straw to medium blonde ale that has moderate bitterness and maltiness. Dry, light to medium body with light malty sweetness. Low to medium hop bitterness with minimal aroma. Slight fruit flavor. Light yellow to golden blonde color with no chill haze. Med to high carbonation. All malt, dry, crisp beer approximating a lager in overall character."); // blonde
 
 
 

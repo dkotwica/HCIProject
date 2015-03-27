@@ -5,21 +5,42 @@
     tools:context="domdomdom.myfirstapp.HelpMe"
     android:orientation="vertical">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:text="Getting Started"
+        android:textSize="35dp"
+        android:layout_weight=".33"/>
+
     <Button
-        android:layout_weight="1"
-        android:layout_width="fill_parent"
-        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/button_new"
-        android:onClick="sendNew"/>
+        android:onClick="sendNew"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/home_button"
+        android:layout_weight="0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".1"/>
     <Button
-        android:layout_weight="1"
-        android:layout_width="fill_parent"
-        android:layout_height="0dp"
+        android:background="@drawable/home_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/button_decide"
         android:clickable="true"
         android:id="@+id/HelpMeDecide"
         android:enabled="true"
         android:onClick="sendFlavor" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".33"/>
 
 
 </LinearLayout>

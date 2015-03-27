@@ -8,27 +8,33 @@
     android:paddingBottom="16dp"
     tools:context="domdomdom.myfirstapp.Browse">
 
+    <TextView
+        android:id="@+id/browse_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Local Bar's Beers"
+        android:textSize="28dp"
+        />
+
+    <Button
+        android:layout_toRightOf="@id/browse_title"
+        android:id="@+id/directions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_button"
+        android:text="Bar Locations"
+        android:onClick="sendDirections"/>
+
     <ExpandableListView
     android:id="@+id/exp_list"
-    android:layout_height="match_parent"
-    android:layout_width="match_parent"
+        android:layout_below="@+id/directions"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
     android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
     android:divider="#A4C739"
 
     android:dividerHeight="1dp"
-        android:layout_below="@+id/Direction_Button"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Directions"
-        android:id="@+id/Direction_Button"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:clickable="true"
-        android:onClick="sendDirections" />
-
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
 
 </RelativeLayout>

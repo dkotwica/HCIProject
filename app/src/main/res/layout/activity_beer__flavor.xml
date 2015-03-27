@@ -8,8 +8,17 @@
     android:paddingBottom="16dp"
     tools:context="domdomdom.myfirstapp.Beer_Flavor">
 
+    <TextView
+        android:id="@+id/activity_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAppearance="@style/AppTheme"
+        android:text="A list of beers based on their flavor"/>
+
     <ExpandableListView
         android:id="@+id/exp_list"
+        android:layout_below="@+id/activity_description"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
